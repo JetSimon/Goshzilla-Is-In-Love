@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e9e846fa58fa4b229627b6df7c1a51a, type: 3}
+  m_Name: TODO Test
+  m_EditorClassIdentifier: 
+  next: {fileID: 0}
+  choices:
+  - text: go to the beach
+    next: {fileID: 11400000, guid: 3ce8f6151ce0344dcb154a7b5226c32b, type: 2}
+    attractionBonus: 0
+  - text: go back to my place
+    next: {fileID: 11400000, guid: e5e063e4a68c84523bca4d4e5b237978, type: 2}
+    attractionBonus: 0
+  - text: get groceries, get eaten
+    next: {fileID: 11400000, guid: e5e063e4a68c84523bca4d4e5b237978, type: 2}
+    attractionBonus: 0

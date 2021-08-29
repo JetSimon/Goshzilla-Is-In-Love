@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e9e846fa58fa4b229627b6df7c1a51a, type: 3}
+  m_Name: Fav Type
+  m_EditorClassIdentifier: 
+  next: {fileID: 0}
+  choices:
+  - text: lamp-like lemon
+    next: {fileID: 11400000, guid: b2e328b7e58c7442c9fa7548e571e9f8, type: 2}
+    attractionBonus: 1
+  - text: plain ol' vanilla
+    next: {fileID: 11400000, guid: 7b938f14b59df4ea4a4c0b067a73028a, type: 2}
+    attractionBonus: 0
+  - text: mothy mint (made with real moth parts)
+    next: {fileID: 11400000, guid: 6af3e998f5df5441d9e2e984c07be1b2, type: 2}
+    attractionBonus: -1

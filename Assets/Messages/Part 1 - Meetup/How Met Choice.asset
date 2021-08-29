@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e9e846fa58fa4b229627b6df7c1a51a, type: 3}
+  m_Name: How Met Choice
+  m_EditorClassIdentifier: 
+  next: {fileID: 0}
+  choices:
+  - text: Yeah it should be fun!
+    next: {fileID: 11400000, guid: bb786f53901ce43278ef4130d623500d, type: 2}
+    attractionBonus: 1
+  - text: I was thinking we could go get iced cream!
+    next: {fileID: 11400000, guid: 7239dea0b532741c6b33924bc41d949c, type: 2}
+    attractionBonus: 0

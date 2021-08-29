@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8e07b51cdbc64bd2a3265419d28e816, type: 3}
+  m_Name: result
+  m_EditorClassIdentifier: 
+  next: {fileID: 0}
+  enemies: {fileID: 11400000, guid: 72420f408058b4caf90c3ac920016340, type: 2}
+  friends: {fileID: 11400000, guid: 99d7cece8abf24faf82735438dc7c93a, type: 2}
+  lovers: {fileID: 11400000, guid: 5166155a9f0984097bb300dedcd8e791, type: 2}
